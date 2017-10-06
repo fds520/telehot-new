@@ -1,0 +1,150 @@
+{
+	"index.html": {
+		"resources": [
+			"css/common.css",
+			"js/update.js",
+			"js/shortcut.js",
+			"js/immersed.js",
+			"plugins/debug/styles/debug.css",
+			"data/document.js",
+			"resources/expand.html",
+			"resources/scripts/axutils.js",
+			"plugins/sitemap/styles/sitemap.css",
+			"resources/scripts/player/splitter.js",
+			"plugins/debug/debug.js",
+			"resources/scripts/jquery-1.7.1.min.js",
+			"plugins/page_notes/page_notes.js",
+			"plugins/sitemap/sitemap.js",
+			"plugins/sitemap/styles/images/sitemap_off.svg",
+			"resources/scripts/player/axplayer.js",
+			"resources/scripts/messagecenter.js",
+			"resources/css/default.css",
+			"resources/css/reset.css",
+			"plugins/page_notes/styles/page_notes.css",
+			"resources/images/close.svg"
+		],
+		"refer": [
+			"plus/speech.html",
+			"about.html"
+		]
+	},
+	"plus/speech.html": {
+		"resources": [
+			"js/common.js",
+			"js/jquery-1.11.1.min.js",
+			"css/common.css",
+			"js/immersed.js",
+			"fds.html"
+		],
+		"refer": [
+			"fds.html"
+		]
+	},
+	"about.html": {
+		"resources": [
+			"js/common.js",
+			"icon.png",
+			"css/common.css",
+			"js/immersed.js"
+		]
+	},
+	"resources/chrome/chrome.html": {
+		"resources": [
+			"resources/chrome/extensions_menu.gif",
+			"resources/chrome/allow_access.gif",
+			"resources/chrome/axure_logo.gif"
+		]
+	},
+	"index-1.html": {
+		"resources": [
+			"css/common.css",
+			"js/update.js",
+			"js/shortcut.js",
+			"js/immersed.js"
+		]
+	},
+	"fds.html": {
+		"resources": [
+			"resources/scripts/axure/style.js",
+			"images/�u/u72.png",
+			"resources/scripts/axure/axQuery.js",
+			"resources/scripts/axure/adaptive.js",
+			"resources/scripts/axure/model.js",
+			"resources/scripts/jquery-1.7.1.min.js",
+			"resources/scripts/axure/drag.js",
+			"images/�u/u80.png",
+			"images/�u/u50.png",
+			"resources/scripts/axure/axQuery.std.js",
+			"resources/scripts/jquery-ui-1.8.10.custom.min.js",
+			"images/�u/u44.png",
+			"resources/scripts/axure/flyout.js",
+			"resources/scripts/axure/doc.js",
+			"resources/scripts/axure/visibility.js",
+			"resources/css/jquery-ui-themes.css",
+			"images/�u/u76.png",
+			"images/�u/u52.png",
+			"resources/scripts/axure/init.temp.js",
+			"resources/scripts/axure/viewer.js",
+			"images/�u/u60.png",
+			"resources/css/axure_rp_page.css",
+			"data/styles.css",
+			"images/�u/u56.png",
+			"resources/scripts/axure/move.js",
+			"resources/scripts/axure/action.js",
+			"images/�u/u74.png",
+			"resources/scripts/axure/sto.js",
+			"images/�u/u86.png",
+			"resources/scripts/axure/variables.js",
+			"resources/scripts/axutils.js",
+			"images/�u/u4.png",
+			"files/�u/styles.css",
+			"resources/scripts/axure/math.js",
+			"images/�u/u46.png",
+			"resources/scripts/axure/events.js",
+			"resources/scripts/axure/utils.temp.js",
+			"resources/scripts/axure/geometry.js",
+			"resources/scripts/axure/legacy.js",
+			"resources/scripts/axure/recording.js",
+			"resources/scripts/messagecenter.js",
+			"images/�u/u78.png",
+			"resources/scripts/axure/expr.js",
+			"resources/scripts/axure/annotation.js",
+			"images/�u/u70.png",
+			"data/document.js",
+			"resources/scripts/axure/globals.js",
+			"resources/scripts/axure/repeater.js",
+			"resources/scripts/axure/ie.js",
+			"images/�u/u58.png",
+			"files/�u/data.js",
+			"resources/scripts/axure/tree.js",
+			"images/�u/u48.png",
+			"plus/speech.html",
+			"images/index/u44.png",
+			"images/index/u76.png",
+			"images/index/u56.png",
+			"images/index/u48.png",
+			"files/index/styles.css",
+			"images/index/u50.png",
+			"images/index/u70.png",
+			"images/index/u74.png",
+			"images/index/u80.png",
+			"images/index/u60.png",
+			"images/index/u86.png",
+			"images/index/u78.png",
+			"images/index/u58.png",
+			"files/index/data.js",
+			"images/index/u72.png",
+			"images/index/u52.png",
+			"images/index/u4.png",
+			"images/index/u46.png",
+			"�e�J.html",
+			"加入群聊.html",
+			"js/update.js"
+		],
+		"refer": [
+			"plus/speech.html",
+			"�e�J.html",
+			"加入群聊.html"
+		]
+	}
+}
