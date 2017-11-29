@@ -9,7 +9,6 @@
 		<script type="text/javascript" src="../js/common.js"></script>
 		<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript">
-			var text = null;
 			function startRecognize() {
 				if(plus.os.name == 'Android' && navigator.userAgent.indexOf('StreamApp') > 0) {
 					plus.nativeUI.toast('当前环境暂不支持语音识别插件');
@@ -31,10 +30,10 @@
 						data:{"content":s},
 						success: function(res){
 							if(res.code == 10000){
-								var message  = res.data;
-								if(message != '' && message != null){
-									alert(res.data);
-								}
+								if(res.data.status == '1'){
+									alert(res.data.content);
+								}else if(res.data.status == '0'){
+									alert("请您重新说一遍吧~~");
 							}
 						}
 					});

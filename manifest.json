@@ -10,7 +10,7 @@
     "icons": {
         "144": "icon.png"
     },
-    "launch_path": "fds.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
+    "launch_path": "home_page.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
     "developer": {
         "name": "",/*开发者名称*/
         "email": "",/*开发者邮箱地址*/
@@ -1476,7 +1476,82 @@
 					"images/index/u4.png",
 					"images/index/u46.png",
 					"加入群聊.html",
-					"js/update.js"
+					"js/update.js",
+					"js/common.js",
+					"js/jquery-1.11.1.min.js",
+					"css/common.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"home_page.html": {
+				"resources": [
+					"resources/scripts/axure/style.js",
+					"images/home_page/u42.png",
+					"resources/scripts/axure/axQuery.js",
+					"resources/scripts/axure/adaptive.js",
+					"resources/scripts/axure/model.js",
+					"resources/scripts/jquery-1.7.1.min.js",
+					"resources/scripts/axure/drag.js",
+					"resources/scripts/axure/axQuery.std.js",
+					"images/home_page/u79.gif",
+					"resources/scripts/jquery-ui-1.8.10.custom.min.js",
+					"js/common.js",
+					"resources/scripts/axure/flyout.js",
+					"resources/scripts/axure/doc.js",
+					"resources/scripts/axure/visibility.js",
+					"resources/css/jquery-ui-themes.css",
+					"resources/scripts/axure/init.temp.js",
+					"resources/scripts/axure/viewer.js",
+					"images/home_page/u64.png",
+					"images/home_page/u40.png",
+					"resources/css/axure_rp_page.css",
+					"images/home_page/u4.png",
+					"data/styles.css",
+					"resources/scripts/axure/move.js",
+					"resources/scripts/axure/action.js",
+					"resources/scripts/axure/sto.js",
+					"files/home_page/data.js",
+					"resources/scripts/axure/variables.js",
+					"resources/scripts/axutils.js",
+					"images/home_page/u73.png",
+					"images/home_page/u60.png",
+					"resources/scripts/axure/math.js",
+					"resources/scripts/axure/events.js",
+					"resources/scripts/axure/utils.temp.js",
+					"resources/scripts/axure/geometry.js",
+					"resources/scripts/axure/legacy.js",
+					"resources/scripts/axure/recording.js",
+					"files/home_page/styles.css",
+					"resources/scripts/messagecenter.js",
+					"images/home_page/u81.gif",
+					"images/home_page/u44.png",
+					"resources/scripts/axure/expr.js",
+					"resources/scripts/axure/annotation.js",
+					"images/home_page/u58.png",
+					"data/document.js",
+					"resources/scripts/axure/globals.js",
+					"images/home_page/u46.png",
+					"images/home_page/u56.png",
+					"resources/scripts/axure/repeater.js",
+					"resources/scripts/axure/ie.js",
+					"js/jquery-1.11.1.min.js",
+					"resources/scripts/axure/tree.js",
+					"images/home_page/u77.gif",
+					"images/home_page/u48.png",
+					"join_chat.html",
+					"js/mui.min.js",
+					"css/mui.min.css"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"join_chat.html": {
+				"resources": [
+					"files/join_chat/styles.css",
+					"images/join_chat/u103.png",
+					"files/join_chat/data.js",
+					"images/join_chat/u96.png"
 				],
 				"refer": [],
 				"priority": 0
