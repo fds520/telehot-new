@@ -38,48 +38,16 @@
     <script src="resources/scripts/axure/style.js"></script>
     <script src="resources/scripts/axure/adaptive.js"></script>
     <script src="resources/scripts/axure/tree.js"></script>
-    <script src="resources/scripts/axure/init.temp.js"></script>
-    <script src="files/home_page/data.js"></script>
     <script src="resources/scripts/axure/legacy.js"></script>
     <script src="resources/scripts/axure/viewer.js"></script>
     <script src="resources/scripts/axure/math.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
 		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/speech.js"></script>
     <script type="text/javascript">
       $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
       $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
       $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
-      var text = null;
-			function startRecognize() {
-				if(plus.os.name == 'Android' && navigator.userAgent.indexOf('StreamApp') > 0) {
-					plus.nativeUI.toast('当前环境暂不支持语音识别插件');
-					return;
-				}
-				var options = {};
-				options.engine = 'iFly';
-				options.punctuation = false;	// 是否需要标点符号 
-				plus.speech.startRecognize(options, function(s) {
-					alert(s);
-					$.ajax({
-						type:"post",
-						dateType : "json",
-						url:"http://106.15.183.25:8091/api/v1/app/speech",
-						async:true,
-						data:{"content":s},
-						success: function(res){
-							if(res.code == 10000){
-								if(res.data.status == '1'){
-									alert(res.data.content);
-								}else if(res.data.status == '0'){
-									plus.nativeUI.toast("听不清楚，请您重新说一遍吧~~");
-								}
-							}
-						}
-					});
-				}, function(e) {
-					
-				});
-			}
     </script>
   </head>
   <body>
@@ -284,7 +252,7 @@
       </div>
 
       <!-- Unnamed (图片) -->
-      <div id="u44" class="ax_default image">
+      <div id="u44" class="ax_default image" onclick="javascript:window.location.href='my_home.html'">
         <img id="u44_img" class="img " src="images/home_page/u44.png"/>
         <!-- Unnamed () -->
         <div id="u45" class="text" style="display: none; visibility: hidden">
@@ -338,7 +306,7 @@
       </div>
 
       <!-- Unnamed (图片) -->
-      <div id="u56" class="ax_default image">
+      <div id="u56" class="ax_default image" onclick="javascript:window.location.href='offer.html'">
         <img id="u56_img" class="img " src="images/home_page/u56.png"/>
         <!-- Unnamed () -->
         <div id="u57" class="text" style="display: none; visibility: hidden">
@@ -404,7 +372,7 @@
         </div>
 
         <!-- Unnamed (矩形) -->
-        <div id="u71" class="ax_default label">
+        <div id="u71" class="ax_default label" onclick="javascript:window.location.href='join_chat.html'">
           <div id="u71_div" class=""></div>
           <!-- Unnamed () -->
           <div id="u72" class="text" style="visibility: visible;">
@@ -441,7 +409,7 @@
       </div>
 
       <!-- Unnamed (图片) -->
-      <div id="u79" class="ax_default image">
+      <div id="u79" class="ax_default image" onclick="javascript:window.location.href='activity.html'">
         <img id="u79_img" class="img " src="images/home_page/u79.gif"/>
         <!-- Unnamed () -->
         <div id="u80" class="text" style="display: none; visibility: hidden">
@@ -450,7 +418,7 @@
       </div>
 
       <!-- Unnamed (图片) -->
-      <div id="u81" class="ax_default image">
+      <div id="u81" class="ax_default image" onclick="javascript:window.location.href='dynamics-communicate.html'">
         <img id="u81_img" class="img " src="images/home_page/u81.gif"/>
         <!-- Unnamed () -->
         <div id="u82" class="text" style="display: none; visibility: hidden">
