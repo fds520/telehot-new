@@ -29,6 +29,6 @@ function startRecognize() {
 			}
 		});
 	}, function(e) {
-
+		plus.nativeUI.toast("听不清楚，请您重新说一遍吧~~");
 	});
 }

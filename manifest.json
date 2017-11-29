@@ -1,12 +1,12 @@
 {
     "@platforms": ["android", "iPhone", "iPad"],
     "id": "H54340632",/*应用的标识，创建应用时自动生成，勿手动修改*/
-    "name": "HelloSpeech",/*应用名称，程序桌面图标名称*/
+    "name": "智慧社区",/*应用名称，程序桌面图标名称*/
     "version": {
         "name": "2.1.2",/*应用版本名称*/
         "code": "20102"
     },
-    "description": "天好语音识别",/*应用描述信息*/
+    "description": "智慧社区",/*应用描述信息*/
     "icons": {
         "144": "icon.png"
     },
@@ -186,9 +186,9 @@
                 "android": {
                     "mdpi": "", /*普通屏启动图片，分辨率：240x282*/
                     "ldpi": "", /*大屏启动图片，分辨率：320x442*/
-                    "hdpi": "", /*高分屏启动图片，分辨率：480x762*/
-                    "xhdpi": "", /*720P高分屏启动图片，分辨率：720x1242*/
-                    "xxhdpi": ""/*1080P高分屏启动图片，分辨率：1080x1882*/
+                    "hdpi": "C:/Users/Feds5/Desktop/1.png", /*高分屏启动图片，分辨率：480x762*/
+                    "xhdpi": "C:/Users/Feds5/Desktop/2.png", /*720P高分屏启动图片，分辨率：720x1242*/
+                    "xxhdpi": "C:/Users/Feds5/Desktop/3.png"/*1080P高分屏启动图片，分辨率：1080x1882*/
                 }
             },
             "plugins": {
@@ -1541,7 +1541,13 @@
 					"images/home_page/u48.png",
 					"join_chat.html",
 					"js/mui.min.js",
-					"css/mui.min.css"
+					"css/mui.min.css",
+					"js/speech.js",
+					"news.html",
+					"activity.html",
+					"dynamics-communicate.html",
+					"offer.html",
+					"my_home.html"
 				],
 				"refer": [],
 				"priority": 0
@@ -1551,7 +1557,180 @@
 					"files/join_chat/styles.css",
 					"images/join_chat/u103.png",
 					"files/join_chat/data.js",
-					"images/join_chat/u96.png"
+					"images/join_chat/u96.png",
+					"talk.html",
+					"home_page.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"news.html": {
+				"resources": [
+					"images/news/u265.png",
+					"images/join_chat/u96.png",
+					"files/news/styles.css",
+					"images/news/u271.png",
+					"home_page.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"activity.html": {
+				"resources": [
+					"images/activity/u880.png",
+					"files/activity/styles.css",
+					"images/activity/u872.png",
+					"images/activity/u870.png",
+					"images/activity/u888.png",
+					"images/activity/u886.png",
+					"home_page.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"dynamics-enjoy.html": {
+				"resources": [
+					"images/dynamics-enjoy/u549.png",
+					"files/dynamics-enjoy/styles.css",
+					"images/talk/u136.png",
+					"images/talk/u134.png",
+					"images/dynamics-enjoy/u541.png",
+					"images/dynamics-enjoy/u547.png",
+					"images/talk/u132.png",
+					"images/dynamics-enjoy/u543.png",
+					"dynamics-communicate.html",
+					"images/dynamics-enjoy/u545.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"dynamics-communicate.html": {
+				"resources": [
+					"resources/scripts/axure/style.js",
+					"resources/scripts/axure/variables.js",
+					"resources/scripts/axutils.js",
+					"resources/scripts/axure/adaptive.js",
+					"resources/scripts/axure/axQuery.js",
+					"resources/scripts/axure/model.js",
+					"dynamics-enjoy.html",
+					"resources/scripts/jquery-1.7.1.min.js",
+					"resources/scripts/axure/drag.js",
+					"resources/scripts/axure/math.js",
+					"resources/scripts/axure/axQuery.std.js",
+					"resources/scripts/axure/events.js",
+					"resources/scripts/axure/utils.temp.js",
+					"resources/scripts/axure/legacy.js",
+					"resources/scripts/jquery-ui-1.8.10.custom.min.js",
+					"resources/scripts/axure/geometry.js",
+					"resources/scripts/axure/flyout.js",
+					"resources/scripts/axure/doc.js",
+					"images/join_chat/u103.png",
+					"resources/scripts/axure/recording.js",
+					"resources/scripts/axure/visibility.js",
+					"resources/scripts/messagecenter.js",
+					"resources/scripts/axure/annotation.js",
+					"resources/scripts/axure/expr.js",
+					"data/document.js",
+					"resources/scripts/axure/viewer.js",
+					"resources/scripts/axure/globals.js",
+					"resources/scripts/axure/repeater.js",
+					"resources/scripts/axure/ie.js",
+					"resources/scripts/axure/move.js",
+					"files/dynamics-communicate/styles.css",
+					"resources/scripts/axure/action.js",
+					"images/dynamics-communicate/u468.png",
+					"resources/scripts/axure/tree.js",
+					"home_page.html",
+					"resources/scripts/axure/sto.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"offer.html": {
+				"resources": [
+					"images/offer/u653.png",
+					"images/offer/u661.png",
+					"images/offer/u663.png",
+					"files/offer/styles.css",
+					"send_water.html",
+					"home_page.html"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"send_water.html": {
+				"resources": [
+					"resources/scripts/axure/style.js",
+					"resources/scripts/axure/variables.js",
+					"resources/scripts/axutils.js",
+					"resources/scripts/axure/adaptive.js",
+					"resources/scripts/axure/axQuery.js",
+					"resources/scripts/axure/model.js",
+					"resources/scripts/jquery-1.7.1.min.js",
+					"resources/scripts/axure/drag.js",
+					"resources/scripts/axure/math.js",
+					"resources/scripts/axure/axQuery.std.js",
+					"offer.html",
+					"resources/scripts/axure/events.js",
+					"resources/scripts/axure/utils.temp.js",
+					"resources/scripts/axure/legacy.js",
+					"resources/scripts/jquery-ui-1.8.10.custom.min.js",
+					"resources/scripts/axure/geometry.js",
+					"resources/scripts/axure/flyout.js",
+					"resources/scripts/axure/doc.js",
+					"resources/scripts/axure/recording.js",
+					"resources/scripts/axure/visibility.js",
+					"resources/scripts/messagecenter.js",
+					"resources/scripts/axure/annotation.js",
+					"files/send_water/styles.css",
+					"resources/scripts/axure/expr.js",
+					"data/document.js",
+					"resources/scripts/axure/viewer.js",
+					"resources/scripts/axure/globals.js",
+					"resources/scripts/axure/repeater.js",
+					"resources/scripts/axure/ie.js",
+					"resources/scripts/axure/move.js",
+					"images/send_water/u696.png",
+					"resources/scripts/axure/action.js",
+					"resources/scripts/axure/tree.js",
+					"resources/scripts/axure/sto.js"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"talk.html": {
+				"resources": [
+					"join_chat.html",
+					"images/talk/u130.png",
+					"images/talk/u136.png",
+					"images/talk/u134.png",
+					"images/talk/u140.png",
+					"images/talk/u120.png",
+					"files/talk/styles.css",
+					"images/talk/u132.png",
+					"images/talk/u122.png",
+					"images/talk/u124.png",
+					"images/talk/u128.png"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"my_home.html": {
+				"resources": [
+					"images/my_home/u860.png",
+					"images/my_home/u854.png",
+					"images/my_home/u816.png",
+					"images/my_home/u848.png",
+					"images/my_home/u832.png",
+					"images/my_home/u858.png",
+					"images/my_home/u852.png",
+					"images/my_home/u850.png",
+					"images/my_home/u856.png",
+					"images/my_home/u862.png",
+					"images/my_home/u864.png",
+					"images/my_home/u808.png",
+					"files/my_home/styles.css",
+					"home_page.html"
 				],
 				"refer": [],
 				"priority": 0
